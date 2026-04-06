@@ -1,0 +1,33 @@
+.Container-Article {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Encabezado {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 30px black;
+    margin: 0;
+}
+
+
+.Container-Article p {
+    width: 80%;
+}
+
+.Container-Article a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 0 0 25px red;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+

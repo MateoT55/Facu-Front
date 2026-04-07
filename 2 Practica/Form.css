@@ -1,0 +1,71 @@
+body 
+{
+    background-color: #333;
+    color: white;
+}
+
+
+.Form-General
+{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 30px #111;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+
+
+
+.Form-Fieldset
+{
+    padding: 20px 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: solid 2px #555;
+}
+
+legend
+{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.form_input
+{
+    padding: 10px 20px;
+}
+
+input, select, textarea
+{
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border: solid 1px #aaa;
+    color: white;
+    resize: none;
+    box-sizing: border-box;
+    margin-top: 5px;
+    box-shadow: 0 0 15px #222;
+
+}
+
+input::placeholder
+{
+    color: #aaa;
+    padding: 30px 5px;
+}
+
+
+.check
+{
+    width: auto;
+}
+
+select option
+{ 
+    background-color: #333;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+
+
+
+        <form class="Form-General">
+            <fieldset class="Form-Fieldset">
+                <legend>Información Personal</legend>
+                <div class="form_input">
+                    <label>
+                        Nombre
+                        <input type="text" placeholder="Mateo" required>
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Apellido
+                        <input type="text" placeholder="Ternovic" required>
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Fecha de Nacimiento
+                        <input type="date" required>
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Género
+                        <select name="Type-of-user" required>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </label>
+                </div>
+            </fieldset>
+
+
+            <fieldset class="Form-Fieldset">
+                <legend>Información de Contacto</legend>
+
+                <div class="form_input">
+                    <label>
+                        Dirección de Correo Electrónico
+                        <input type="email" required placeholder="ejemplo@gmail.com">
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Número de Teléfono
+                        <input type="tel" required placeholder="+5433646958">
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Dirección
+                        <textarea rows="3" maxlength="140" placeholder="Deja tu Dirección"></textarea>
+                    </label>
+                </div>
+                
+            </fieldset>
+
+
+
+            <fieldset class="Form-Fieldset">
+                <legend>Información de la Cuenta</legend>
+
+                <div class="form_input">
+                    <label>
+                        Nombre de Usuario
+                        <input type="text" required placeholder="mateo_ternovic">
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Contraseña
+                        <input type="password" required>
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>
+                        Confirmación de Contraseña
+                        <input type="password" required>
+                    </label>
+                </div>
+            </fieldset>
+            
+            <fieldset class="Form-Fieldset">
+                <legend>Preferencias</legend>
+
+                <div class="form_input">
+                    <label>
+                        Materia Cursante
+                        <select>
+                            <option value="Programación">Programación</option>
+                            <option value="Base de Datos">Base de Datos</option>
+                            <option value="Analisis de Sistemas">Analisis de Sistemas</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="form_input">
+
+                    <label>
+                        Aceptar Terminos y Condiciones
+                        <input type="checkbox" class="check">
+                    </label>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>

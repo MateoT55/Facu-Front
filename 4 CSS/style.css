@@ -1,0 +1,93 @@
+:root{
+    --color-primario: #565;
+}
+
+
+
+body {
+    background-color: #111;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2
+{
+    color: white;
+    text-shadow: 0 0 10px #777;
+    text-align: center;
+    font-size: 30px;
+    position: sticky;
+    top: 1px;
+    background-color: var(--color-primario);
+
+}
+
+div p 
+{
+    color: white;
+    font-size: 19px;
+    text-shadow: 0 0 5px white;
+    
+}
+
+#name 
+{
+    color: #aaa;
+    text-shadow: none;
+}
+
+div 
+{
+    width: 70vw;
+    width: 70%;
+
+    margin: auto;
+    border: solid 1px white;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #555;
+}
+
+
+
+/*
+POSITION
+Absolute
+Relative
+Fixed
+Sticky
+
+*/
+
+
+
+
+/*
+
+[href]
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+p 
+{
+    color: red;
+}
+
+
+div > h3
+{
+    color: green;
+
+}
+
+h3 + h5
+{
+    color: pink;
+}
+
+*/

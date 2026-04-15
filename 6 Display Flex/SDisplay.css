@@ -1,0 +1,52 @@
+
+
+.container 
+{
+    background-color: #abe;
+    width: 80%;
+    height: 60vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container-article
+{
+    background-color: #56c;
+    width: 50%;
+    height: 80%;
+    box-sizing: border-box;
+}
+
+.container-article2
+{
+    background-color: #56c;
+    width: 50%;
+    height: 80%; 
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.sep
+{
+    margin: 0 12px;
+}
+
+.container-article2-section
+{
+    background-color: #12a;
+    width: 100%;
+    height: 50%;
+    margin: 10px 0;
+}
+
+.white
+{
+    background-color: white;
+}

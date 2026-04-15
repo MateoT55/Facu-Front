@@ -1,0 +1,144 @@
+body
+{
+    background-color: #00F;
+}
+
+.containernav
+{
+    width: 90%;
+    height: 19vh;
+    background-color: #bbb;
+    position: relative;
+    left: 5%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px
+
+}
+
+.containernav-search
+{
+    background-color: #F00;
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+}
+
+.containernav-menu
+{
+    background-color: #000;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+}
+
+.container
+{
+    background-color: #F00;
+    width: 90%;
+    height: 49vh;
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: relative;
+    left: 5%;
+    top: 10px;
+    padding: 10px;
+}
+
+.container-aside
+{
+    background-color: #0F0;
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: left;
+    padding: 10px;
+}
+
+.container-aside-section
+{
+    background-color: #00F;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+.container-article
+{
+    background-color: #FFF;
+    width: 79%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.container-article-section
+{
+    width: 24%;
+    height: 32%;
+    background-color: #000;
+    display: inline-block;
+}
+
+.footer
+{
+    width: 90%;
+    height: 19vh;
+    background-color: #999;
+    position: relative;
+    top: 20px;
+    vertical-align: bottom;
+    position: relative;
+    left: 5%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.footer-section
+{
+    background-color: #0F0;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+.container-aside-section:hover {
+    background-color: #000;
+}
+
+
+.container-article-section:hover
+{
+    background-color: white;
+}
+
+
+body::before
+{
+    content: "Página completa ('Aviso en CSS con Before'): ";
+    text-decoration: underline;
+    color: #FFF;
+}
+
+
+
+
+@media (max-width: 500px)
+{
+    body{
+        background-color: #0a1;
+    }
+}
+

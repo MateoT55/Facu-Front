@@ -1,0 +1,59 @@
+body{
+    background-color: #999;
+}
+
+
+
+.containerint1{
+    background-color: #F00;
+    width: 49%;
+    height: 80vh;
+    position: relative;
+    margin: 50px 0;
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    left: 10px;
+}
+
+.containerint1-container2
+{
+    background-color: #00F;
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+}
+.containerint1-container3
+{
+    background-color: #999;
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+}
+
+
+.containerext1
+{
+    width: 24%;
+    height: 80vh;
+    display: inline-block;
+    background-color: #0F0;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.containerext2
+{
+    width: 24%;
+    height: 80vh;
+    display: inline-block;
+    background-color: #000;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 50px 0;
+    position: relative;
+    left: 20px;
+}

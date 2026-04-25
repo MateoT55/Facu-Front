@@ -69,7 +69,7 @@ body
 .container-article
 {
     background-color: #FFF;
-    width: 79%;
+    width: 70%;
     height: 100%;
     display: inline-block;
     position: relative;
@@ -95,7 +95,6 @@ body
     position: relative;
     top: 20px;
     vertical-align: bottom;
-    position: relative;
     left: 5%;
     box-sizing: border-box;
     padding: 40px;
@@ -111,34 +110,4 @@ body
 
 
 
-
-
-
-.container-aside-section:hover {
-    background-color: #000;
-}
-
-
-.container-article-section:hover
-{
-    background-color: white;
-}
-
-
-body::before
-{
-    content: "Página completa ('Aviso en CSS con Before'): ";
-    text-decoration: underline;
-    color: #FFF;
-}
-
-
-
-
-@media (max-width: 500px)
-{
-    body{
-        background-color: #0a1;
-    }
-}
 

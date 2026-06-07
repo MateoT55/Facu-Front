@@ -13,8 +13,11 @@ body
     letter-spacing: 5px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     width: 100%;
-    background-color: #121231;
+    background-color: #121231;  
 }
+
+
+
 
 .header span
 {
@@ -31,7 +34,7 @@ body
     margin: auto;
     width: 70%;
     min-width: 250px;
-    max-width: 400px;
+    max-width: 420px;
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -49,9 +52,26 @@ body
     box-shadow: 5px 5px 15px #ff9771;
 }
 
+.Calc-Screen-secondary
+{
+    grid-column: span 4;
+    min-height: 10px;
+    width: 100%;
+    color: #B0B0D0;
+    background-color: #27273b;
+    border-radius: 10px;
+    font-size: 95%;
+    text-align: right;
+    padding: 1% 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .Calc-Screen
 {
-    margin: 10px 0;
+    margin: 5px 0;
     width: 100%;
     height: 60px;
     grid-column: span 4;
@@ -62,6 +82,8 @@ body
     justify-content: end;
     align-items: center;
     border-radius: 12px;
+    font-size: 130%;
+    padding: 0 5%;
 }
 
 .Calc-Screen_Cuenta
@@ -76,6 +98,7 @@ body
     border: none;
     border-radius: 20px;
     padding: 15%;
+    font-size: 90%;
     box-shadow: 2px 2px 5px #c0522a;
     border: 1px solid #2a2a4a;
 }
@@ -101,12 +124,29 @@ body
     background-color: #e07b38;
     color: #D0D0e8;
 }
+
+.par
+{
+    background-color: #c86c2f;
+    color: #D0D0e8;
+}
+.M
+{
+    background-color: #565672;
+    color: #D0D0e8;
+}
 .ig
 {
     background-color: #c0522a;
     color: #D0D0e8;
 }
 
+.paren
+{
+    grid-column: span 2;
+    padding: 10%;
+    
+}
 
 .cer{
     grid-column: span 2;
@@ -212,11 +252,6 @@ body
 
 
 
-
-
-
-
-
 .footer-bottom
 {
     display: flex;
@@ -261,3 +296,146 @@ body
     height: 1px;
     margin: 14px 0;
 }
+
+
+
+
+/* ─── MODO CLARO ─────────────────────────────────── */
+
+body.light-mode
+{
+    background-color: #F0F0FF;
+}
+
+body.light-mode .top
+{
+    background-color: #C8C8E8;
+    color: #2A2A4A;
+}
+
+body.light-mode .num
+{
+    background-color: #E0E0F0;
+    color: #1A1A3E;
+}
+
+body.light-mode .op
+{
+    background-color: #e07b38;
+    color: #FFFFFF;
+}
+
+body.light-mode .par
+{
+    background-color: #c86c2f;
+    color: #FFFFFF;
+}
+
+body.light-mode .M
+{
+    background-color: #9090B0;
+    color: #FFFFFF;
+}
+
+body.light-mode .ig
+{
+    background-color: #c0522a;
+    color: #FFFFFF;
+}
+
+body.light-mode .header
+{
+    background-color: #E8E8F5;
+}
+
+body.light-mode .header span
+{
+    color: #2A2A4A;
+}
+
+body.light-mode .header h1
+{
+    color: #b05a1e;
+}
+
+body.light-mode .Calc
+{
+    background-color: #F0F0FF;
+    box-shadow: #cc6644;
+}
+
+body.light-mode .Calc:hover
+{
+    box-shadow: #cc6644;
+}
+
+body.light-mode .Calc-Screen
+{
+    background-color: #FFFFFF;
+    color: #1A1A3E;
+}
+
+body.light-mode .Calc-but
+{
+    box-shadow: #996644;
+    border: #D0D0E8;
+}
+
+body.light-mode .footer
+{
+    background-color: #E8E8F5;
+    color: #2A2A4A;
+}
+
+body.light-mode .footertop-encabezado-titulo_logo
+{
+    background-color: #e07b38;
+}
+
+body.light-mode .footertop-encabezado p
+{
+    color: #5A5A8A;
+}
+
+body.light-mode .footertop-op h6
+{
+    color: #b05a1e;
+}
+
+body.light-mode .footertop-op li, ol
+{
+    color: #5A5A8A;
+}
+
+body.light-mode .footertop-pr h6
+{
+    color: #b05a1e;
+}
+
+body.light-mode .footertop-pr a
+{
+    color: #5A5A8A;
+}
+
+body.light-mode .footer-bottom-drA
+{
+    color: #A0A0C0;
+}
+
+body.light-mode .footer-bottom-tech h5
+{
+    background-color: #C8C8F0;
+    color: #b05a1e;
+}
+
+body.light-mode .footer-bottom-tech span
+{
+    color: #5A5A8A;
+}
+
+body.light-mode .footer-separator
+{
+    background-color: #C8C8D8;
+}
+
+

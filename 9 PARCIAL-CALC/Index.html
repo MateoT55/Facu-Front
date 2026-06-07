@@ -10,16 +10,28 @@
     <body>
         <header class="header">
             <h1><span>Cal</span>culadora</h1>
+            <button id="theme-toggle" class="theme-toggle">M</button>
         </header>
 
 
         <div class="Calc">
+            <div id="secondary-display" class="Calc-Screen-secondary"></div>
             <input type="text" id="display" class="Calc-Screen" disabled>
-
-            <button class="Calc-but top">AC</button>
-            <button class="Calc-but top">%</button>
-            <button class="Calc-but top">÷</button>
-            <button class="Calc-but op">DEL</button>
+            <button class="Calc-but paren op">(</button>
+            <button class="Calc-but paren op">)</button>
+            <button class="Calc-but ig">AC</button>
+            <button class="Calc-but ig">DEL</button>
+            <button class="Calc-but par">±</button>
+            <button class="Calc-but par">x!</button>
+            <button class="Calc-but M">M+</button>
+            <button class="Calc-but M">M-</button>
+            <button class="Calc-but M">√</button>
+            <button class="Calc-but op">%</button>
+            <button class="Calc-but M">MC</button>
+            <button class="Calc-but M">MR</button>
+            <button class="Calc-but M">x²</button>
+            <button class="Calc-but op">÷</button>
+            
             <button class="Calc-but num">7</button>
             <button class="Calc-but num">8</button>
             <button class="Calc-but num">9</button>
@@ -35,6 +47,11 @@
             <button class="Calc-but cer num">0</button>
             <button class="Calc-but num">.</button>
             <button class="Calc-but ig">=</button>
+        </div>
+
+        <div>
+            <h3>Historial de Operaciones</h3>
+            <input type="text" id="historial" class="historial_op" disabled>
         </div>
 
 

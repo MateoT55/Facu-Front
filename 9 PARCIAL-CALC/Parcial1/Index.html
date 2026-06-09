@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1><span>Cal</span>culadora</h1>
+            <button id="theme-toggle" class="theme-toggle">M</button>
+        </header>
+
+        <div class="main">
+            <div class="Calc">
+                <div class="calc-header">
+                    <h2 class="calc-title">Calculadora</h2>
+                    <button id="historial-icon" class="historial-btn" title="Ver historial">⏰</button>
+                </div>
+                <div id="secondary-display" class="Calc-Screen-secondary"></div>
+                <input type="text" id="display" class="Calc-Screen" disabled>
+                <button class="Calc-but paren op">(</button>
+                <button class="Calc-but paren op">)</button>
+                <button class="Calc-but ig">AC</button>
+                <button class="Calc-but ig">DEL</button>
+                <button class="Calc-but par">±</button>
+                <button class="Calc-but par">x!</button>
+                <button class="Calc-but M">M+</button>
+                <button class="Calc-but M">M-</button>
+                <button class="Calc-but M">√</button>
+                <button class="Calc-but op">%</button>
+                <button class="Calc-but M">MC</button>
+                <button class="Calc-but M">MR</button>
+                <button class="Calc-but M">x²</button>
+                <button class="Calc-but op">÷</button>
+                
+                <button class="Calc-but num">7</button>
+                <button class="Calc-but num">8</button>
+                <button class="Calc-but num">9</button>
+                <button class="Calc-but op">X</button>
+                <button class="Calc-but num">4</button>
+                <button class="Calc-but num">5</button>
+                <button class="Calc-but num">6</button>
+                <button class="Calc-but op">-</button>
+                <button class="Calc-but num">1</button>
+                <button class="Calc-but num">2</button>
+                <button class="Calc-but num">3</button>
+                <button class="Calc-but op">+</button>
+                <button class="Calc-but cer num">0</button>
+                <button class="Calc-but num">.</button>
+                <button class="Calc-but ig">=</button>
+            </div>
+
+            <div class="record hidden" id="record-panel">
+                <h3 class="record-title">Historial de Operaciones</h3>
+                <div id="historial-display" class="record-historial_op"></div>
+                <div class="record-func">
+                    <button id="download-json-record" class="download-btn" title="Descargar historial">Descargar</button>
+                    <button id="clear-historial-record" class="download-btn" title="Borrar todo">Borrar todo</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal del Historial -->
+        <div id="historial-modal" class="historial-modal">
+            <div class="historial-modal-content">
+                <div class="historial-header">
+                    <h2 class="record-title">Historial de Operaciones</h2>
+                    <button id="close-historial" class="close-btn">&times;</button>
+                </div>
+                <div id="historial-content" class="historial-content"></div>
+                <div class="historial-footer">
+                    <button id="download-json" class="download-btn">Descargar JSON</button>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <footer class="footer">
+            <div class="footertop">
+                <div class="footertop-encabezado">
+                    <div class="footertop-encabezado-titulo">
+                        <div class="footertop-encabezado-titulo_logo">÷</div>
+                        <h5>CalcApp</h5>
+                    </div>
+                    <p>Calculadora simple y rápida</p>
+                </div>
+
+
+
+                <div class="footertop-oppr">
+                    <div class="footertop-op">
+                        <h6>Operaciones</h6>
+                        <ol>
+                            <li>Suma y Resta<li>
+                            <li>Multiplicación</li>
+                            <li>División</li>
+                            <li>Porcentaje</li>
+                        </ol>
+                    </div>
+
+                    <div class="footertop-pr">
+                        <h6>Proyecto</h6>
+                        <a href="#">Sobre esta app</a>
+                        <a href="#">Código fuente</a>
+                        <a href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-separator">
+
+            </div>
+
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-drA">
+                    <p>© 2025 CalcApp — Hecho con HTML y CSS</p>
+                </div>
+                <div class="footer-bottom-tech">
+                    <h5>HTML <span>5</span></h5>
+                    <h5>CSS <span>3</span></h5>
+                </div>
+            </div>
+        </footer>
+
+        <script src="Script.js"></script>
+    </body>
+</html>
